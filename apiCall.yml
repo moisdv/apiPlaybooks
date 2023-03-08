@@ -8,7 +8,7 @@
      
     - name: Get repositories
       uri:
-        url: https://api.github.com/repos/moisdv/devel-automation
+        url: https://api.github.com/repos/moisdv/
         return_content: true 
         headers:
           Accept: application/vnd.github+json
